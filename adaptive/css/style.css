@@ -1,0 +1,714 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 27px;
+    font-weight: 600;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+}
+.menu ul li {
+    margin-left: 35px;
+    list-style-type: none;
+    display: inline;
+}
+.logo img {
+    margin: 0;
+    padding: 0;
+    opacity: 50%;
+    width: 100%;   
+}
+.logo {
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+.banner {
+    position: absolute;
+    top: 300px;    
+}
+.banner h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 250;
+    font-style: normal;
+}
+
+.banner p {
+    color: white;
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+}
+
+.banner button {
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-size: 10pt;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h2 {
+    text-align: center;
+    margin: 20px 50px 30px 50px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.main {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 320;
+    padding-left: 30px;
+    font-style: normal;
+
+}
+
+.sum {
+    margin: 0;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 27px;
+    font-style: normal;
+
+}
+
+.block {
+    width: 260px;
+    height: 400px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.50);
+    background-color: #FFF;
+}
+
+.tovar img {
+    position: relative;
+    margin: 0px 15px;
+    height: 260px;
+    width: 240px;
+}
+
+.giro {
+    background-color: white;
+}
+
+.pop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pop ul li {
+    list-style-type: none;
+    margin-left: 39px;
+    display: inline;
+}
+
+.pop ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+}
+
+footer {
+    height: 328px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+   background-color: #D9D9D9;
+    padding-top: 50px;
+}
+
+footer h4 {
+    color: black;
+}
+
+footer section {
+    display: flex;
+}
+
+footer div {
+    margin-left: 50px;
+}
+
+footer ul {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    color: #4a607e;
+    list-style-type: none;
+    display: block;
+}
+
+.giros {
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+
+.lll {
+    width: 350px;
+    height: 250px;
+}
+
+.lll img {
+
+    height: 250px;
+    width: 255px
+}
+
+.lll p {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.fot {
+    margin-left: 200px;
+}
+
+
+@media (max-width: 1024px){
+    .menu ul li a{
+        font-size: 12px;
+    }
+
+    .logo{
+        height: 468px;
+    }
+    
+    .logo img{
+        width: 100%;
+        height: 468px;
+    }
+
+    .about{
+        width: 885px;
+    }
+
+    .menu{
+        width: 885px;
+    }    
+
+    .giros{
+        width: 885px;
+        padding-bottom: 52px;
+    }
+
+    .tovar{
+        width: 210px;
+        height: 280.25px;
+    }
+    
+    .sigvei img{
+        position: relative;
+        margin: 2px 11px;
+        width: 192.299px;
+        height: 163.684px;
+    }
+    
+    .name{
+        font-size: 12px;
+        padding-left: 22px;
+    }
+    
+    .prise{
+        padding-top: 9px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        padding-left: 22px;
+    }
+
+    
+    .kv{
+        background-color: black;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .kv img{
+        width: 100%;
+        opacity: 60%;
+    }
+    
+    .kv p{
+        font-size: 13px;
+        margin-top: -125px;
+    }
+
+     footer li{
+        font-size: 12px;
+     }
+
+     footer h4{
+        font-size: 14px;
+     }
+}
+
+@media (max-width: 768px){
+    .menu ul li a{
+        margin-left: 30px;
+    }
+
+    .menu ul li a{
+        font-size: 12px;
+    }
+
+    .logo{
+        height: 351px;
+    }
+    
+    .logo img{
+        width: 100%;
+        height: 351px; 
+    }
+
+    .about{
+        top: 137px;
+    }
+
+    .menu{
+        width: 590px;
+        margin: 0 auto;
+    }
+
+    .giros{
+        font-size: 48px;
+    }
+    
+    .tovar{
+        padding-top: 30px;
+        font-size: 16px;
+    }
+
+    .main{
+        width: 572px;
+    }
+
+    .w .logo{
+        width: 97px;
+        height: 30px;
+    }
+
+    .w{
+        width: 768px;
+        justify-content: flex-start
+    }
+
+    
+    h2{
+        font-size: 20px;
+    }
+
+    .products{
+        width: 572px;
+        padding-bottom: 52px;
+    }
+
+    .about p{
+        font-size: 12px;
+    }
+
+    .catalog ul li{
+        margin-left: 17px;
+    }
+    
+    .catalog ul li a{
+        font-size: 10px;
+    }
+    .tovar{
+        width: 120px;
+        height: 195px;
+    }
+    
+    .vid{
+        width: 41.83px;
+        height: 15.119px;
+        background-image: url('Rectangle 6.png');
+    }
+    
+
+    .sigvei img{
+        position: relative;
+        margin: 2px 0;
+        width: 120.451px;
+        height: 120.451px;
+    }
+    
+    .name{
+        font-size: 8px;
+        padding-left: 14.11px;
+    }
+    
+    .prise{
+        padding-top: 6.55px;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        padding-left: 14.11px;
+    }
+
+    
+    .kv{
+        background-color: black;
+        width: 128px;
+        height: 128px;
+    }
+    
+    .kv img{
+        width: 100%;
+        opacity: 60%;
+    }
+    
+    .kv p{
+        font-size: 9px;
+        margin-top: -90px;
+    }
+
+     footer li{
+        font-size: 6px;
+     }
+
+     footer h4{
+        font-size: 7px;
+     }
+     footer section p{
+        color: #8191A6;
+        font-size: 6px;
+        width: 354px;
+    }
+}
+
+@media (max-width: 480px){
+    .logo img{
+        width: 97px;
+    }
+
+    .menu ul li a{
+        display: none;
+    }
+
+    .logo{
+        height: 346px;
+        overflow: hidden;
+    }
+    
+    .logo img{
+        width: 100%;
+    }
+
+    .ab{
+        top: 183px;
+    }
+
+    .giros{
+        font-size: 38px;
+    }
+    
+    .text_on_banner{
+        padding-top: 22px;
+        font-size: 12px;
+    }
+
+    .main{
+        width: 421px;
+    }
+
+    .w{
+        width: 460px;
+        justify-content: flex-start
+    }
+
+    
+    h2{
+        font-size: 22px;
+    }
+
+    .about p{
+        font-size: 12px;
+    }
+
+    .about p:nth-child(3){
+        margin-top: 22px;
+    }
+
+    .catalog ul{
+        margin-top: 5px;
+    }
+
+    .catalog ul li{
+        margin-left: 19px;
+    }
+    
+    .catalog ul li a{
+        font-size: 10px;
+    }   
+    .tovar{
+        width: 190px;
+        height: 280px;
+        margin: 22px 15px;
+    }
+
+    
+    .products{
+        flex-wrap: wrap;
+        width: 450px;
+    }
+
+    .vid{
+        width: 83px;
+        height: 30px;
+        background-image: url('img/Rectangle 6.png');
+    }
+    
+
+    .sigvei img{
+        position: relative;
+        margin: 2px 0;
+        width: 173.148px;
+        height: 173.232px;
+    }
+    
+    .name{
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    
+    .prise{
+        padding-top: 10px;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    
+    .kv{
+        width: 185px;
+        height: 185px;
+        margin: 22px 15px;
+    }
+
+    .kv img{
+        width: 100%;
+        opacity: 60%;
+    }
+    
+    .kv p{
+        font-size: 11px;
+        margin-top: -110px;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        height: 500px;
+    }
+
+    footer section{
+        flex-wrap: wrap;
+    }
+
+    .bl {
+        margin-left: 0;
+    }
+
+     footer li{
+        font-size: 14px;
+     }
+
+     footer h4{
+        font-size: 14px;
+     }
+     footer section p{
+        color: #8191A6;
+        font-size: 12px;
+        width: 354px;
+    }
+}
+
+
+@media (max-width: 320px){
+    .logo img{
+        width: 97px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        height: 306px;
+        overflow: hidden;
+    }
+    
+    .logo img{
+        width: 100%;
+    }
+
+    .ab{
+        top: 137px;
+    }
+
+    .giros{
+        font-size: 36px;
+    }
+    
+    .text_on_banner{
+        padding-top: 22px;
+        font-size: 10px;
+    }
+    .main{
+        width: 290px;
+    }
+
+    .w{
+        width: 768px;
+        justify-content: flex-start
+    }
+
+    
+    h2{
+        font-size: 20px;
+    }
+
+    .about p{
+        font-size: 10px;
+    }
+
+    .about p:nth-child(3){
+        margin-top: 12px;
+    }
+
+    .catalog ul{
+        display: none;
+    }
+    .tovar{
+        width: 184px;
+        height: 280px;
+        margin: 44px 68px;
+    }
+    .tovar:nth-child(1){
+        margin: 27px 68px;
+    }
+    .products{
+        flex-wrap: wrap;
+    }
+
+    .vid{
+        width: 83px;
+        height: 30px;
+        background-image: url('img/Rectangle 6.png');
+    }
+    
+
+    .sigvei img{
+        position: relative;
+        margin: 2px 0;
+        width: 173.148px;
+        height: 173.232px;
+    }
+    
+    .name{
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    
+    .prise{
+        padding-top: 10px;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    
+    .kv{
+        width: 180px;
+        height: 180px;
+        margin: 34px 60px;
+    }
+    
+    .kv:nth-child(1){
+        margin: 0 60px;
+    }
+
+    .kv img{
+        width: 100%;
+        opacity: 60%;
+    }
+    
+    .kv p{
+        font-size: 11px;
+        margin-top: -110px;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        height: 500px;
+    }
+
+    footer section{
+        flex-wrap: wrap;
+    }
+
+    .bl {
+        margin-left: 0;
+    }
+
+     footer li{
+        font-size: 14px;
+     }
+
+     footer h4{
+        font-size: 14px;
+     }
+     footer section p{
+        color: #8191A6;
+        font-size: 12px;
+        width: 354px;
+    }
+}
